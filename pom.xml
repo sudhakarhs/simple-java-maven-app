@@ -73,3 +73,9 @@
     </plugins>
   </build>
 </project>
+<distributionManagement>
+        <repository>
+            <id>nexus-releases</id> <!-- Match this ID with the settings.xml -->
+            <url>http://13.51.173.79:8081/repository/mvn-package/</url>
+        </repository>
+</distributionManagement>
